@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Baby Peach Realm",
+    "slug": "baby-peach-realm",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/duck2.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFF5EE"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/duck2.png",
+        "backgroundColor": "#FFF5EE"
+      },
+      "package": "com.yourcompany.babypeachrealm"
+    },
+    "web": {
+      "favicon": "./assets/duck2.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0691ad51-7ce8-4d47-8782-763c50142fde"
+      }
+    }
+  }
+}
